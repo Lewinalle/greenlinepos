@@ -27,7 +27,7 @@ Packages and their versions used for the development:
 
 # List of endpoints
 
-### Company: 
+#### Company: 
 ```
 GET /localhost:3000/company
 GET /localhost:3000/company/:id
@@ -43,7 +43,7 @@ Example Payload for POST
 }
 ```
 
-Customer:
+#### Customer:
 ```
 GET /localhost:3000/customer
 GET /localhost:3000/customer/:id
@@ -60,7 +60,7 @@ Example Payload for POST
 }
 ```
 
-Product:
+#### Product:
 ```
 GET /localhost:3000/product
 GET /localhost:3000/product/:id
@@ -79,7 +79,7 @@ Example Payload for POST
 }
 ```
 
-Sales:
+#### Sales:
 ```
 GET /localhost:3000/sales
 GET /localhost:3000/sales/:id
@@ -102,7 +102,7 @@ DELETE /localhost:3000/sales/:id
 }
 ```
 
-Add a Sales Item:   
+#### Add a Sales Item:   
 // endpoint to add sales item to Sales object's items.   
 // helper function to build updated Sales.items when removing an item.    
 // if payload's product id exists in one of the Sales.items, it subtracts the new quantity from old quatity. if it goes below 0, it removes the item from Sales.items.   
@@ -119,7 +119,7 @@ POST /localhost:3000/sales/:id/addItem
 }
 ```
 
-Remove a Sales Item:
+#### Remove a Sales Item:
 // endpoint to remove sales item from Sales object's items.    
 // helper function to build updated Sales.items when adding an item.   
 // if payload's product id already exists in one of the Sales.items, it adds up the quantities.    
