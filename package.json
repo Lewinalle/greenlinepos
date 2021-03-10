@@ -1,0 +1,23 @@
+{
+	"name": "greenline",
+	"version": "1.0.0",
+	"description": "Greenline assignment",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon app.js"
+	},
+	"author": "Lewis Kim",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"joi": "^17.4.0",
+		"joi-objectid": "^3.0.1",
+		"migrate-mongo": "^8.2.2",
+		"mongoose": "^5.11.19"
+	},
+	"devDependencies": {
+		"dotenv": "^8.2.0",
+		"nodemon": "^2.0.7"
+	}
+}
